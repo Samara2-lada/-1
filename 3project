@@ -1,6 +1,0 @@
-#Перевёртыш слов
-slovo = input("Введите слово")
-reverse = ""
-for char in slovo:
-    reverse = char + reverse
-print("Перевёнутое слово:", reverse)
