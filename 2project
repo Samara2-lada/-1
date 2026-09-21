@@ -1,7 +1,0 @@
-#Подсчёт цифр в числе
-x = input("Введите число:")
-count = 0
-for digit in x:
- if digit.isdigit():
-    count += 1
-print(f"Количество цифр: {count}")
